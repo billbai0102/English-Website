@@ -2194,6 +2194,11 @@ input, select, textarea {
 			min-width: 10rem;
 		}
 
+			.panel > *.colorFam {
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #833ab4 20%, #585eff 60%, #a5e6eb);
+				background-size: 128px 128px, auto;
+			}
+
 			.panel > *.color0 {
 				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
 				background-size: 128px 128px, auto;
