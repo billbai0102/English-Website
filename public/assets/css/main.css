@@ -2199,6 +2199,16 @@ input, select, textarea {
 				background-size: 128px 128px, auto;
 			}
 
+			.panel > *.colorCar {
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #833ab4 20%, #55b180 60%, #a5e6eb);
+				background-size: 128px 128px, auto;
+			}
+
+			.panel > *.colorCon {
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #b43a92 20%, #c49fb0 60%, #b1a5eb);
+				background-size: 128px 128px, auto;
+			}
+
 			.panel > *.color0 {
 				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
 				background-size: 128px 128px, auto;
